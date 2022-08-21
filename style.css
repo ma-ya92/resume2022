@@ -20,8 +20,20 @@ h1 {
   font-size: 96px;
 }
 
+@media (max-width: 448px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
 h2 {
   font-size: 48px;
+}
+
+@media (max-width: 448px) {
+  h2 {
+    font-size: 15px;
+  }
 }
 
 h3 {
@@ -84,6 +96,12 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+}
+
+@media (max-width: 448px) {
+  .email-link {
+    font-size: 18px;
+  }
 }
 
 .email-link:hover {
